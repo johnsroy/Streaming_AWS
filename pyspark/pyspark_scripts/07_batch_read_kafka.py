@@ -1,8 +1,3 @@
-# Purpose: Batch read Kafka output topic and display,
-#           top 25 total sales by country to console
-# Author:  Gary A. Stafford
-# Date: 2021-09-06
-
 import os
 
 import boto3
