@@ -1,7 +1,3 @@
-# purpose: Kafka Connect for Amazon MSK
-# author: Gary A. Stafford
-# date: 2021-10-28
-
 FROM openjdk:17-alpine3.14
 
 ### VARIABLES ###
