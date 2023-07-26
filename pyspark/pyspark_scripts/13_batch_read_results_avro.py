@@ -1,7 +1,3 @@
-# Purpose: Batch read and display sales totals from Kafka in Avro format.
-# Author:  Gary A. Stafford
-# Date: 2021-09-28
-
 import os
 
 import boto3
