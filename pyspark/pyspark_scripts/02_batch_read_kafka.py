@@ -1,8 +1,3 @@
-# Purpose: Batch read Kafka topic, aggregate sales and orders by country,
-#          and output to console and Amazon S3 as CSV
-# Author:  Gary A. Stafford
-# Date: 2021-09-22
-
 import os
 
 import boto3
