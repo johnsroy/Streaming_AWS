@@ -1,8 +1,3 @@
-# Purpose: Streaming read from Kafka topic and aggregate
-#          current sales by country to the console every minute
-# Author:  Gary A. Stafford
-# Date: 2021-09-08
-
 import os
 
 import boto3
