@@ -1,9 +1,3 @@
-#!/bin/bash
-
-# Purpose: Create SSM parameters for spark/kafka demo
-# Author:  Gary A. Stafford
-# Date: 2021-09-28
-
 aws ssm put-parameter \
   --name /kafka_spark_demo/kafka_servers \
   --type String \
