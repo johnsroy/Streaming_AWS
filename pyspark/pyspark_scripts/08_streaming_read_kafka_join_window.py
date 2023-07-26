@@ -1,9 +1,3 @@
-# Purpose: Streaming read from Kafka topic, join with static data,
-#          and aggregate in windows by sales region to the console every minute
-#          Show 24 = 8 regions x 3 windows
-# Author:  Gary A. Stafford
-# Date: 2021-09-08
-
 import os
 
 import boto3
