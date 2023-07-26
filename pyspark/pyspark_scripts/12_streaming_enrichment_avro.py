@@ -1,8 +1,3 @@
-# Purpose: Streaming read from Kafka topic in Avro format. Enrich and aggregate
-#          current sales by sales region to second Kafka topic every n minutes.
-# Author:  Gary A. Stafford
-# Date: 2021-09-28
-
 import os
 
 import boto3
