@@ -10,12 +10,12 @@ export BBROKERS="b-1.your-bootstrap-broker.kafka.us-east-1.amazonaws.com:9098,b-
 
 time docker build \
     --build-arg BBROKERS=$BBROKERS \
-    --tag garystafford/kafka-connect-msk:$TAG \
+    --tag sroy/kafka-connect-msk:$TAG \
     --no-cache .
 
 # push
-docker push garystafford/kafka-connect-msk:$TAG
+docker push sroy/kafka-connect-msk:$TAG
 
 # test
-docker run -it --rm garystafford/kafka-connect-msk:$TAG env
+docker run -it --rm sroy/kafka-connect-msk:$TAG env
 ```
