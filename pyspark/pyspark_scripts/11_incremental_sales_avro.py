@@ -1,8 +1,3 @@
-# Purpose: Write sales data from CSV to a new Kafka topic in Avro format.
-#          Use a delay between each message to simulate an event stream of sales data.
-# Author:  Gary A. Stafford
-# Date: 2021-09-28
-
 import os
 import time
 
