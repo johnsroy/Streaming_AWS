@@ -1,7 +1,3 @@
-# Purpose: Create Avro schemas in Apicurio Registry.
-# Author:  Gary A. Stafford
-# Date: 2021-09-28
-
 import json
 import os
 
